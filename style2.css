@@ -1,0 +1,90 @@
+.texto {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    display: grid;
+}
+
+.h1 {
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 0.9;
+    color: #38B6FF;
+}
+
+
+.lyric {
+    display: inline;
+    text-align: left;
+}
+
+
+.p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    letter-spacing: 30px;
+    padding-left: 20px;
+    color: white;
+}
+
+
+body {
+    background-color: #141414;
+}
+
+.videos {
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+iframe {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 720px){
+    iframe{
+        width: 336px;
+        height: 189px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .h1 {
+        font-size: 4rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        line-height: 0.9;
+        color: #38B6FF;
+    }
+    .p {
+        font-size: 0.7rem;
+        letter-spacing: 10px;
+    }
+}
+
+@media only screen and (max-width: 338px){
+    iframe{
+        width: 280px;
+        height: 157.5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .h1 {
+        font-size: 3rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        line-height: 0.9;
+        color: #38B6FF;
+    }
+    .p {
+        font-size: 0.6rem;
+        letter-spacing: 10px;
+    }
+    .texto {
+        margin: 50px;
+    }
+}
